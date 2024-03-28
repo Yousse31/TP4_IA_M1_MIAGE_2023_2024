@@ -14,7 +14,7 @@ curl https://api.openai.com/v1/completions \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -d '{
     "model": "gpt-3.5-turbo-instruct",
-    "prompt": "Propose un nom pour la MIAGE de Nice: ",
+    "prompt": "Propose moi un nom de félin: ",
     "max_tokens": 7,
     "temperature": 1
   }'
